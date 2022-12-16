@@ -29,7 +29,7 @@ dependencies {
 ```
 
 ## Screenshots
-<img width="300" heigth="600" src="https://github.com/IbrahimOdeh/IbraDialog/blob/master/Screenshot_01.png">
+<img width="300" heigth="600" src="https://github.com/IbrahimOdeh/IbraDialog/blob/main/screenshots/Screenshot_01.png">
 
 ## How To Use
 ``` java
