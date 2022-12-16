@@ -1,18 +1,20 @@
 plugins {
     id 'com.android.library'
 }
+group = 'com.github.IbrahimOdeh'
+version = '1.0.1'
 
 android {
-    namespace 'com.ibrahimodeh.ibradialog'
     compileSdk 33
 
     defaultConfig {
         minSdk 21
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
     }
 
     buildTypes {
