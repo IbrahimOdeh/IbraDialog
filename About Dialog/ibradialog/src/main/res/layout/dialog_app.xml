@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/main_frame"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/spacing_xlarge"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ibrahim_logo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ibrahim Odeh"
+            android:textColor="@color/blue_900"
+            android:textSize="17sp"
+            android:fontFamily="@font/font1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Professional Developer"
+            android:fontFamily="@font/font1"
+            android:textAlignment="center"
+            android:textColor="@color/blue_grey_800_overlay"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font1"
+            android:text="I am Android and Web Developer, who provides the best services for your or your business."
+            android:layout_marginTop="@dimen/spacing_large"
+            android:textColor="@color/blue_grey_800_overlay"
+            android:padding="@dimen/spacing_large"
+            android:textAlignment="center"
+            android:textSize="11sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_marginTop="@dimen/spacing_large" />
+
+        <TextView
+            android:id="@+id/tv_follow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Follow Me"
+            android:fontFamily="@font/font1"
+            android:textColor="@color/blue_grey_800_overlay"
+            android:textSize="11sp"
+            android:layout_marginTop="@dimen/spacing_medium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:layout_marginTop="@dimen/spacing_medium">
+
+            <ImageView
+                android:id="@+id/iv_facebook"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/facebook_logo"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iv_twitter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/twitter_logo"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iv_instagram"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/instagram_logo"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iv_pinterest"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/pinterest_logo"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:background="@drawable/btn_rounded_green"
+            android:text="My Website"
+            android:paddingStart="@dimen/spacing_xlarge"
+            android:paddingEnd="@dimen/spacing_xlarge"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:fontFamily="@font/font1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
