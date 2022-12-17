@@ -1,3 +1,1 @@
-rootProject.name = "About Dialog Example"
-include ':app'
-include ':ibradialog'
+include ':app' , ':ibradialog'
