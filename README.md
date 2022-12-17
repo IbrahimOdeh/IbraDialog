@@ -2,6 +2,7 @@
 
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=21)
+[![](https://jitpack.io/v/IbrahimOdeh/IbraDialog.svg)](https://jitpack.io/#IbrahimOdeh/IbraDialog)
 
 This Helpful Dialog for you if you want to make Amazing "About Me" Dialog for your Android App, animatied and easily to use.
 
@@ -24,7 +25,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 
 ```gradle
 dependencies {
-	        implementation 'com.github.IbrahimOdeh:IbraDialog:1.0.1'
+	        implementation 'com.github.IbrahimOdeh:IbraDialog:1.0.3'
 	}
 ```
 
